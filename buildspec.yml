@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Dependencies
+
+  build:
+    commands:
+      - echo Build Started
+      - python --version
+
+artifacts:
+  files:
+    - '**/*'
